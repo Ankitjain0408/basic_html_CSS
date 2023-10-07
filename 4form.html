@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>This is form tutorial</h2>
+    <form action="backend.php">
+        <label for="name">Name:</label>
+        <input type="text" name="myname" id="name"><br><br>
+        Role:<input type="text" name="myrole">
+        <br><br>
+        Member<input type="number" name="mymember">
+        <div>
+            <br>
+            Gender: Male<input type="radio" name="mygender">Female:<input type="radio" name="mygender">
+        </div>
+        <div>
+            <br>
+            <label for="eligible">ARE YOU ELIGIBLE:</label>
+            <input type="checkbox" name="myeligibility" id="eligible" checked>
+        </div>
+        <br>
+        Date:<input type="date" name="mydate">
+        <div>
+            <br>
+            Write about yourself<br><textarea name="mytext" cols="90" rows="10"></textarea>
+        </div>
+        <div>
+            <br>
+            car:<select name="mycar">
+                <option value="1" selected>swift</option>
+                <option value="2">fortuner</option>
+            </select>
+        </div>
+        <br>
+        <input type="submit" value="submit now"><input type="reset" value="Reset">
+    </form>
+</body>
+</html>
